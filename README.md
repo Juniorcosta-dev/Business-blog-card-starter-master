@@ -2,7 +2,7 @@
 
 Este projeto é uma interface simples e elegante para um cartão de blog voltado para negócios. Ele apresenta um artigo introdutório sobre soluções para pequenos negócios, incluindo informações sobre o autor do texto.
 
-![Texto Alternativo](/img/hero-image-1.jpg)
+![Texto Alternativo](/img/Captura%20de%20tela%202025-01-04%20160511.png)
 
 ## Tecnologias Utilizadas
 
