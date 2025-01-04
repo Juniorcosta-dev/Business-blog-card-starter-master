@@ -2,6 +2,8 @@
 
 Este projeto é uma interface simples e elegante para um cartão de blog voltado para negócios. Ele apresenta um artigo introdutório sobre soluções para pequenos negócios, incluindo informações sobre o autor do texto.
 
+![Texto Alternativo](/img/hero-image-1.jpg)
+
 ## Tecnologias Utilizadas
 
 -   **HTML5**: para estruturação do conteúdo.
