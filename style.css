@@ -1,0 +1,113 @@
+/* Reset básico: remove margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis globais para padronização de fontes e cores */
+:root {
+    font-size: 62.5%;
+
+    --font-corpo: "Lato", serif;
+    --font-titulo: "Poppins", serif;
+
+    --cor-fundo: #f2f5f9;
+    --cor-cartao: #ffffff;
+    --cor-texto: #4a5567;
+    --cor-titulo: #111729;
+}
+
+/* Estilização do body */
+body {
+    font-family: var(--font-corpo);
+    background-color: #f2f5f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilização do container principal */
+main {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.section-content img {
+    border-radius: 10px 10px 0 0;
+}
+
+.section-article {
+    position: relative;
+}
+
+.section-article img {
+    position: absolute;
+    bottom: -1rem;
+}
+
+.div-content {
+    position: absolute;
+    top: 1rem;
+}
+
+.div-content h1 {
+    font-family: var(--font-titulo);
+    color: var(--cor-titulo);
+    font-size: 2.6rem;
+    padding: 0 2rem;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.div-content p {
+    font-size: 1.7rem;
+    padding: 0 2rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+    color: var(--cor-texto);
+}
+
+.section-author {
+    margin-top: 18rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-author img {
+    border-radius: 50%;
+    width: 4rem;
+}
+
+.section-author p > span {
+    font-family: var(--font-corpo);
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--cor-titulo);
+}
+
+.section-author p {
+    color: var(--cor-texto);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 425px) {
+    main,
+    .section-content img {
+        max-width: 300px;
+    }
+    .div-content h1 {
+        font-size: 2rem;
+    }
+    .div-content p {
+        font-size: 1.2rem;
+    }
+
+}
